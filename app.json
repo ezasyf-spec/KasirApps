@@ -12,14 +12,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.ezasyf.app.KasirApp"
+      "supportsTablet": true
     },
     "android": {
       "package": "com.ezasyf.app.KasirApp"
     },
     "web": {
       "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ec8deaad-0c77-495b-a1d5-a477d25f2bb3"
+      }
     }
   }
 }
